@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.raina.PresentSir.app-mergeDebugResources-52:/layout/nav_header.xml",
+        "source": "com.raina.PresentSir.app-main-55:/layout/nav_header.xml"
+    },
+    {
+        "merged": "com.raina.PresentSir.app-mergeDebugResources-52:/layout/activity_signup.xml",
+        "source": "com.raina.PresentSir.app-main-55:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.raina.PresentSir.app-mergeDebugResources-52:/layout/activity_login.xml",
+        "source": "com.raina.PresentSir.app-main-55:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.raina.PresentSir.app-mergeDebugResources-52:/layout/activity_main.xml",
+        "source": "com.raina.PresentSir.app-main-55:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.raina.PresentSir.app-mergeDebugResources-52:/layout/activity_attendance_month.xml",
+        "source": "com.raina.PresentSir.app-main-55:/layout/activity_attendance_month.xml"
+    },
+    {
+        "merged": "com.raina.PresentSir.app-mergeDebugResources-52:/layout/activity_recognize_face.xml",
+        "source": "com.raina.PresentSir.app-main-55:/layout/activity_recognize_face.xml"
+    },
+    {
+        "merged": "com.raina.PresentSir.app-mergeDebugResources-52:/layout/activity_faculty_student.xml",
+        "source": "com.raina.PresentSir.app-main-55:/layout/activity_faculty_student.xml"
+    },
+    {
+        "merged": "com.raina.PresentSir.app-mergeDebugResources-52:/layout/activity_attendance.xml",
+        "source": "com.raina.PresentSir.app-main-55:/layout/activity_attendance.xml"
+    },
+    {
+        "merged": "com.raina.PresentSir.app-mergeDebugResources-52:/layout/activity_splash_screen.xml",
+        "source": "com.raina.PresentSir.app-main-55:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.raina.PresentSir.app-mergeDebugResources-52:/layout/activity_attendance_faculty.xml",
+        "source": "com.raina.PresentSir.app-main-55:/layout/activity_attendance_faculty.xml"
+    },
+    {
+        "merged": "com.raina.PresentSir.app-mergeDebugResources-52:/layout/student_card.xml",
+        "source": "com.raina.PresentSir.app-main-55:/layout/student_card.xml"
+    },
+    {
+        "merged": "com.raina.PresentSir.app-mergeDebugResources-52:/layout/activity_reset_password.xml",
+        "source": "com.raina.PresentSir.app-main-55:/layout/activity_reset_password.xml"
+    }
+]

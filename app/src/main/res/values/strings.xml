@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Present Sir</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="or">OR</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="get_password_link">Get Password Link</string>
+    <string name="back">Back</string>
+    <string name="subject">Subject</string>
+    <string name="add_face">Add Face</string>
+    <string name="capture">Capture</string>
+    <string name="upload">Upload</string>
+    <string name="student">Student</string>
+    <string name="roll_number">Roll Number:</string>
+    <string name="student_email">Email:</string>
+    <string name="student_name">Student name:</string>
+    <string name="mark_attendance">Mark Attendance</string>
+    <string name="prev">prev</string>
+    <string name="next">next</string>
+    <string name="no_image_captured">No Image Captured!</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="click_here_to_mark_your_attendance">Tap here to mark your Attendance</string>
+    <string name="click_here_to_add_your_face">Click here to add your face</string>
+    <string name="tap_any_subject_to_mark_it_s_attendance">Tap any subject to mark its Attendance</string>
+</resources>

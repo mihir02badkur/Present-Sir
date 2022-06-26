@@ -1,0 +1,33 @@
+com/atharvakale/facerecognition/splash_screen.java
+ com.atharvakale.facerecognition.splash_screen
+ com.atharvakale.facerecognition.splash_screen$1
+com/atharvakale/facerecognition/MainActivity.java
+ com.atharvakale.facerecognition.MainActivity
+ com.atharvakale.facerecognition.MainActivity$1
+ com.atharvakale.facerecognition.MainActivity$1$1
+ com.atharvakale.facerecognition.MainActivity$1$2
+ com.atharvakale.facerecognition.MainActivity$10
+ com.atharvakale.facerecognition.MainActivity$11
+ com.atharvakale.facerecognition.MainActivity$12
+ com.atharvakale.facerecognition.MainActivity$13
+ com.atharvakale.facerecognition.MainActivity$14
+ com.atharvakale.facerecognition.MainActivity$15
+ com.atharvakale.facerecognition.MainActivity$15$1
+ com.atharvakale.facerecognition.MainActivity$15$2
+ com.atharvakale.facerecognition.MainActivity$15$3
+ com.atharvakale.facerecognition.MainActivity$16
+ com.atharvakale.facerecognition.MainActivity$17
+ com.atharvakale.facerecognition.MainActivity$18
+ com.atharvakale.facerecognition.MainActivity$2
+ com.atharvakale.facerecognition.MainActivity$3
+ com.atharvakale.facerecognition.MainActivity$4
+ com.atharvakale.facerecognition.MainActivity$5
+ com.atharvakale.facerecognition.MainActivity$6
+ com.atharvakale.facerecognition.MainActivity$7
+ com.atharvakale.facerecognition.MainActivity$8
+ com.atharvakale.facerecognition.MainActivity$9
+com/atharvakale/facerecognition/BuildConfig.java
+ com.atharvakale.facerecognition.BuildConfig
+com/atharvakale/facerecognition/SimilarityClassifier.java
+ com.atharvakale.facerecognition.SimilarityClassifier
+ com.atharvakale.facerecognition.SimilarityClassifier$Recognition

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "217908243406",
+    "project_id": "attendance-tracker-3d997",
+    "storage_bucket": "attendance-tracker-3d997.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217908243406:android:2d9c87a20a4dde6cc4999f",
+        "android_client_info": {
+          "package_name": "com.raina.PresentSir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217908243406-knkka26tk9ju7c2p80p1ovlfvpr9p1oe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.raina.PresentSir",
+            "certificate_hash": "d70c5c52f1ff19507aef6b977f44ac54e997f907"
+          }
+        },
+        {
+          "client_id": "217908243406-n8pid48h33arbcf13pi7kihrmqaqke6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOlO0j361IWxL2P8ZQdWx-IWIUjSK6QUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217908243406-n8pid48h33arbcf13pi7kihrmqaqke6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

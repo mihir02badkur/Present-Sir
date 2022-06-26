@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".faculty.AttendanceFacultyActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="top"
+            android:background="@color/actionBar"
+            android:elevation="@dimen/elevation"
+            app:contentInsetStart="16dp"
+            app:layout_scrollFlags="scroll|enterAlways|snap"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightBg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:paddingHorizontal="10dp">
+
+                <ImageView
+                    android:id="@+id/prevMonth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/prev"
+                    android:src="@drawable/arrow_back" />
+
+                <TextSwitcher
+                    android:id="@+id/textSwitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="60dp"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                </TextSwitcher>
+
+                <ImageView
+                    android:id="@+id/nextMonth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/next"
+                    android:src="@drawable/arrow_forward" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="8dp"
+                android:orientation="vertical"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#d2000000"
+                        android:orientation="vertical"
+                        android:padding="4dp"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="@dimen/elevation">
+
+                        <ImageView
+                            android:id="@+id/subject_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/subject"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/subj3" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#b2000000"
+                            android:baselineAligned="false"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/subject1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="5dp"
+                                android:gravity="center"
+                                android:textColor="@color/white"
+                                android:textSize="40sp" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="4dp"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="@dimen/elevation">
+
+                        <ImageView
+                            android:id="@+id/subject_name1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/subject"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/subj1" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#b2000000"
+                            android:baselineAligned="false"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/subject2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="5dp"
+                                android:gravity="center"
+                                android:textColor="@color/white"
+                                android:textSize="40sp" />
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="4dp"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="@dimen/elevation">
+
+                        <ImageView
+                            android:id="@+id/subject_name2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/subject"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/subj5" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#b2000000"
+                            android:baselineAligned="false"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/subject3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="5dp"
+                                android:gravity="center"
+                                android:textColor="@color/white"
+                                android:textSize="40sp" />
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="4dp"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="@dimen/elevation">
+
+                        <ImageView
+                            android:id="@+id/subject_name3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/subject"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/subj4" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#b2000000"
+                            android:baselineAligned="false"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/subject4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="5dp"
+                                android:gravity="center"
+                                android:textColor="@color/white"
+                                android:textSize="40sp" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="4dp"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="@dimen/elevation">
+
+                        <ImageView
+                            android:id="@+id/subject_name4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/subject"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/subj2" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#b2000000"
+                            android:baselineAligned="false"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/subject5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="5dp"
+                                android:gravity="center"
+                                android:textColor="@color/white"
+                                android:textSize="40sp" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="4dp"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="@dimen/elevation">
+
+                        <ImageView
+                            android:id="@+id/subject_name5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/subject"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/subj6" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#b2000000"
+                            android:baselineAligned="false"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/subject6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="5dp"
+                                android:gravity="center"
+                                android:textColor="@color/white"
+                                android:textSize="40sp" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
